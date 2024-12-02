@@ -1,0 +1,20 @@
+{
+  "name": "compilerr",
+  "version": "1.0.0",
+  "main": "Api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Api.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compilex": "^0.7.4",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
