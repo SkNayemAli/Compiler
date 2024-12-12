@@ -1,17 +1,7 @@
-#Sample Dockerfile for NodeJS Apps
-
-FROM node:16
-
-ENV NODE_ENV=production
-
+FROM node:22.11.0
 WORKDIR /app
-
-COPY ["package.json", "package-lock.json*", "./"]
-
-RUN npm install --production
-
-COPY . .
-
-EXPOSE 8080
-
-CMD [ "node", "index.js" ]
+COPY . /app
+RUN npm install
+ENV PORT 8000
+EXPOSE 8000
+CMD ["node", "Api.js"]
