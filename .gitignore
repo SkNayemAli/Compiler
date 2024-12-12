@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Temporary files
+temp/
+public/
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+public/
+temp/
+public/
+temp/
